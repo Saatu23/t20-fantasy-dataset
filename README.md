@@ -97,3 +97,9 @@ df = pd.read_csv("https://raw.githubusercontent.com/Saatu23/t20-fantasy-dataset/
 # Example: Top 5 all-rounders by Fantasy Points per Match
 top_all = df[df["Player Type"] == "ALL"].sort_values("Fantasy points per match", ascending=False).head()
 print(top_all[["Player Name", "Fantasy points per match"]])
+```
+### 🙋‍♂️ Author
+
+**Satyam Kumar Mishra**  
+📧 satyammishra20102004@gmail.com  
+🔗 [GitHub](https://github.com/Saatu23)
